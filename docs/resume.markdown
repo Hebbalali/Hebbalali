@@ -5,7 +5,7 @@ permalink: /resume/
 
 <script src="https://hebbalali.github.io/Hebbalali/assets/web/pdf.js"></script>
 <script src="https://hebbalali.github.io/Hebbalali/assets/web/pdf.worker.js"></script>
-<link rel="stylesheet" href="https://hebbalali.github.io/Hebbalali/web/build/pdf_viewer.css" />
+<link rel="stylesheet" href="https://hebbalali.github.io/Hebbalali/web/pdf_viewer.css" />
 ---
 
 <div id="pdf">
