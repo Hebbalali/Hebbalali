@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://hebbalali.github.io/Hebbalali/assets/web/pdf_viewer.css">
+  <script type="text/javascript" src="https://hebbalali.github.io/Hebbalali/assets/web/pdf.js"></script>
+  <script type="text/javascript" src="https://hebbalali.github.io/Hebbalali/assets/web/pdf.worker.js"></script>
+    // Modify this variable to point to your own PDF file
+    var pdfUrl = "https://hebbalali.github.io/Hebbalali/assets/Cv_Hebbal_2023.pdf";
+    // Use the PDF.js viewer to display the PDF file
+    pdfjsLib.getDocument(pdfUrl).promise.then(function(pdf) {
+      var viewer = document.getElementById('pdfViewer');
+      for (var i = 1; i <= pdf.numPages; i++) {
+        var page = document.createElement('div');
+        viewer.appendChild(page);
+        pdf.getPage(i).then(function(page) {
+          var scale = 1.5;
+          var viewport = page.getViewport({scale: scale});
+          var canvas = document.createElement('canvas');
+          var context = canvas.getContext('2d');
+          canvas.height = viewport.height;
+          canvas.width = viewport.width;
+          page.render({
+            canvasContext: context,
+            viewport: viewport
+          });
+          pageDiv.appendChild(canvas);
+        });
+      }
+    });
+  </script>
+</head>
+<body>
+  <div id="pdfViewer"></div>
+</body>
+</html>
