@@ -1,42 +1,66 @@
----
-layout: default
----
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{ page.title }}</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="https://hebbalali.github.io/Hebbalali/assets/web/pdf_viewer.css">
-  <script type="text/javascript" src="https://hebbalali.github.io/Hebbalali/assets/web/pdf.js"></script>
-  <script type="text/javascript">  pdfjsLib.GlobalWorkerOptions.workerSrc = "https://hebbalali.github.io/Hebbalali/assets/web/pdf.worker.js"; </script> 
-  <script type="text/javascript">
-    // Modify this variable to point to your own PDF file
-    var pdfUrl = "https://hebbalali.github.io/Hebbalali/assets/Cv_Hebbal_2023.pdf";
-    // Use the PDF.js viewer to display the PDF file
-    pdfjsLib.getDocument(pdfUrl).promise.then(function(pdf) {
-      var viewer = document.getElementById('pdfViewer');
-      for (var i = 1; i <= pdf.numPages; i++) {
-        var page = document.createElement('div');
-        viewer.appendChild(page);
-        pdf.getPage(i).then(function(page) {
-          var scale = 1.5;
-          var viewport = page.getViewport({scale: scale});
-          var canvas = document.createElement('canvas');
-          var context = canvas.getContext('2d');
-          canvas.height = viewport.height;
-          canvas.width = viewport.width;
-          page.render({
-            canvasContext: context,
-            viewport: viewport
-          });
-          pageDiv.appendChild(canvas);
-        });
-      }
-    });
-  </script>
+<script src="https://hebbalali.github.io/Hebbalali/assets/web/pdf.js"></script>
+<script src="https://hebbalali.github.io/Hebbalali/assets/web/pdf.worker.js"></script>
+<link rel="stylesheet" href="https://hebbalali.github.io/Hebbalali/assets/web/pdf_viewer.css" />
 </head>
 <body>
-  <div id="pdfViewer"></div>
+    <script>
+        var url = "https://hebbalali.github.io/Hebbalali/assets/Cv_Hebbal_2023.pdf";
+        var pdfDoc = null;
+        var pageNum = 1;
+        var pageRendering = false;
+        var pageNumPending = null;
+        var canvas = document.getElementById('pdf-canvas');
+        var ctx = canvas.getContext('2d');
+      
+        function renderPage(num) {
+          pageRendering = true;
+          pdfDoc.getPage(num).then(function(page) {
+            var viewport = page.getViewport({scale: 1});
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+            var renderContext = {
+              canvasContext: ctx,
+              viewport: viewport
+            };
+            var renderTask = page.render(renderContext);
+            renderTask.promise.then(function() {
+              pageRendering = false;
+              if (pageNumPending !== null) {
+                renderPage(pageNumPending);
+                pageNumPending = null;
+              }
+            });
+          });
+          document.getElementById('page-num').textContent = num;
+        }
+      
+        pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+          pdfDoc = pdfDoc_;
+          document.getElementById('page-count').textContent = pdfDoc.numPages;
+          renderPage(pageNum);
+        });
+      
+        document.getElementById('prev-page').addEventListener('click', function() {
+          if (pageNum <= 1) {
+            return;
+          }
+          pageNum--;
+          renderPage(pageNum);
+        });
+      
+        document.getElementById('next-page').addEventListener('click', function() {
+          if (pageNum >= pdfDoc.numPages) {
+            return;
+          }
+          pageNum++;
+          renderPage(pageNum);
+        });
+      </script>
+
 </body>
+
+
 </html>
