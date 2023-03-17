@@ -8,8 +8,9 @@ permalink: /resume/
   <canvas id="pdf-canvas"></canvas>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js" integrity="sha512-iKWpMimpp5Ke5/5nRk5jGnJ/5My3q/iD8kj/nptiN2Q/AwNcUhMa4E4x7V73ZJtiv1CtIyvAGSd7VbYPNSDbcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+<script src="https://hebbalali.github.io/Hebbalali/assets/web/pdf.js"></script>
+<script src="https://hebbalali.github.io/Hebbalali/assets/web/pdf.worker.js"></script>
+<link rel="stylesheet" href="https://hebbalali.github.io/Hebbalali/assets/web/pdf_viewer.css" />
 
 <script>
   var url = "https://hebbalali.github.io/Hebbalali/assets/Cv_Hebbal_2023.pdf";
