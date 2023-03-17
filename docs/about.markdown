@@ -4,15 +4,21 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About me
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Hi dear visitor,
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I'am Ali, a Ph.D in computer science and an industrial engineer interested in the application of state-of-the-art machine learning methods in real-world industrial problems. My domain of expertise is Bayesian deep learning and optimization. 
+
+During my thesis, I've written several journal papers and book chapters and communicated my contributions at national and international conferences. I developed novel approaches and models, based on Bayesian deep learning, for the analysis and optimization of complex systems. 
+
+After my thesis, I joined Hybrid Intelligence a part of Capgemini Engineering as an optimization and machine learning consultant. One of my major projects was the developpement of a mathematical optimization model  to explore the cabin configuration design of aircrafts for Airbus. The model was developped using ORtools and CPSolver as well as multi-objective optimization.
+
+I've also given advanced training courses for aerospace engineers on optimization and also lectures on machine learning for Master students.
+
+# About the website
+
+The goal of this website is the share my different open source contributions. This concerns python codes on Gaussian processes, Deep Gaussian processes and optimization as well as my talks and papers.
 
 
-[jekyll-organization]: https://github.com/jekyll
+
