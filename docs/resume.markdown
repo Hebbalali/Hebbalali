@@ -8,10 +8,13 @@ permalink: /resume/
 <div id="pdf">
   <canvas id="pdf-canvas"></canvas>
 </div>
-
+<html>
+<head>
 <script src="https://hebbalali.github.io/Hebbalali/assets/web/pdf.js"></script>
 <script src="https://hebbalali.github.io/Hebbalali/assets/web/pdf.worker.js"></script>
 <link rel="stylesheet" href="https://hebbalali.github.io/Hebbalali/assets/web/pdf_viewer.css" />
+</head>
+<body>
 <script>
     var url = "https://hebbalali.github.io/Hebbalali/assets/Cv_Hebbal_2023.pdf";
     var pdfDoc = null;
@@ -61,4 +64,5 @@ permalink: /resume/
       renderPage(pageNum);
     });
   </script>
-
+</body>
+</html>
