@@ -5,10 +5,11 @@ permalink: /about/
 ---
 
 # About me
-![My Image](https://hebbalali.github.io/Hebbalali/assets/cv_picture.jpg "Ali")
+<img src="https://hebbalali.github.io/Hebbalali/assets/cv_picture.jpg" alt="Ali" style="float:right;width:300px;">
 Hi dear visitor,
 
 I'am Ali, a Ph.D in computer science and an industrial engineer interested in the application of state-of-the-art machine learning methods in real-world industrial problems. My domain of expertise is Bayesian deep learning and optimization. 
+
 
 During my thesis, I've written several journal papers and book chapters and communicated my contributions at national and international conferences. I developed novel approaches and models, based on Bayesian deep learning, for the analysis and optimization of complex systems. 
 
