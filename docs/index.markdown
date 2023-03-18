@@ -6,9 +6,10 @@ layout: home
 ---
 
 # About me
+<img src="https://hebbalali.github.io/Hebbalali/assets/cv_picture.jpg" alt="Ali" style="float:right;width:200px;">
 Hi dear visitor,
 
-I'am Ali, a Ph.D in computer science and an industrial engineer interested in the application of state-of-the-art machine learning methods in real-world industrial problems. My domain of expertise is Bayesian deep learning and optimization. 
+I'am Ali, a Ph.D in computer science and an industrial engineer interested in the application of state-of-the-art machine learning methods in real-world industrial problems. My domains of expertise are Bayesian deep learning and optimization. 
 
 # About this website
 
