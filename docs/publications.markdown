@@ -4,4 +4,4 @@ title: Publications
 permalink: /publications/
 ---
 
-{% bibliography --file https://hebbalali.github.io/Hebbalali/assets/my_publications.bib %}
+{% bibliography --file assets/my_publications.bib %}
