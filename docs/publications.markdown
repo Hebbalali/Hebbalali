@@ -3,6 +3,9 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
+## Thesis
+- **Deep Gaussian processes for the analysis and optimization of complex systems-application to aerospace system design.** Ali Hebbal.  *Doctoral dissertation*, 2021. [[Hal.science]](https://hal.science/tel-03276426/document)
+
 
 ## Journal Papers
 
