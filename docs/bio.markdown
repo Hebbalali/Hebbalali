@@ -38,8 +38,30 @@ Overall, my passion lies in the application of cutting-edge machine learning met
     - Optimization: Cplex, ORTools, Scipy, Tensorflow
     - ML: Tensorflow, Torch, Keras, GPflow
 
+## Research Interest
+   - Bayesian modeling
+   - Bayesian deep learning
+   - Gaussian processes
+   - Bayesian optimization
+   - Evolutionary computation
+   - Operational research.
 
-## Communication Skills:
-- **Disseminating**: communicating results to specialist audiences (international conferences) and non-specialist (popular science events)
-- **Teaching**: advanced training courses for aerospace engineers on optimization and also lectures on machine learning for Master students 
-- **Language**: Arabic (native), French (fluent), English (fluent)
+
+## Teaching and training activities
+
+- 2019-2021: Teaching assistant and course designer of the course **Machine Learning and Optimization** and lab sessions using *Python* held at Université de Lille for MRes 2 by Prof. Nouredine Melab.
+
+- October 2019: Trainer for the training **Estimation and Optimization of Complex Systems** and lab sessions using *Python* held at EUROSAE Toulouse by Prof. Jérôme Morio. 
+
+- 2018-2019: Teaching assistant of the course **Probability and Statistics** held at Université de Versailles Saint-Quentin-en-Yvelines for L2 by Prof. Brigitte Chauvin.
+
+
+## Awards and distinctions
+
+- **2020:** Best Ph.D. thesis at ONERA - TIS Department.  
+  *Deep Gaussian processes for analysis and optimization of complex systems.*
+- **2016:** Best final year thesis at Ecole Mohammadia d'Ingénieurs - Supply chain option.  
+  *Optimization of the allocation of vehicles to journeys at CTM*.
+
+
+
