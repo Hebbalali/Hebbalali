@@ -5,7 +5,6 @@
 layout: home
 ---
 
-# About me
 <img src="https://hebbalali.github.io/Hebbalali/assets/cv_picture.jpg" alt="Ali" style="float:right;width:200px;">
 Hi dear visitor,
 
