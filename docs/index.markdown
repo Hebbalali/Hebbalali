@@ -10,8 +10,6 @@ Hi dear visitor,
 
 I'am Ali, a Ph.D in computer science and an industrial engineer interested in the application of state-of-the-art machine learning methods in real-world industrial problems. My domains of expertise are Bayesian deep learning and optimization. 
 
-# About this website
-
-The goal of this website is the share my different open source contributions. This concerns python codes on Gaussian processes, Deep Gaussian processes and optimization as well as my talks and papers.
+In this website I will share my different open source contributions. This concerns python codes on Gaussian processes, Deep Gaussian processes and optimization as well as my talks and papers.
 
 

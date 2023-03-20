@@ -31,4 +31,4 @@ permalink: /publications/
 
 - **Surrogate model-based multi-objective MDO approach for partially Reusable Launch Vehicle design.**  L. Brevault, A. Hebbal, M. Balesdent, E.G. Talbi, and N. Melab. *AIAA SciTech*, 2019. [[Hal.science]](https://hal.science/hal-02913046/document), [[https://arc.aiaa.org/doi/abs/10.2514/6.2019-0704]](AIAA)
 
-- **Efficient Global Optimization with Deep Gaussian Processes.** A. Hebbal, L. Brevault, M. Balesdent, E.G. Talbi, and N. Melab. In * PGMO days*, 2018. [[Arxiv]](https://arxiv.org/abs/1809.04632), [[IEEE]](https://ieeexplore.ieee.org/abstract/document/8477946)
+- **Efficient Global Optimization with Deep Gaussian Processes.** A. Hebbal, L. Brevault, M. Balesdent, E.G. Talbi, and N. Melab. In * IEEE CEC*, 2018. [[Arxiv]](https://arxiv.org/abs/1809.04632), [[IEEE]](https://ieeexplore.ieee.org/abstract/document/8477946)
