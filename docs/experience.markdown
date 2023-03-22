@@ -4,10 +4,10 @@ title: Experience
 permalink: /experience/
 ---
 
-# Hybrid Intelligence - Capgemini <img src="https://hebbalali.github.io/Hebbalali/assets/CAP.PA.png" alt="capgemini" style="float:left;width:1;">
+# Hybrid Intelligence - Capgemini <img src="https://hebbalali.github.io/Hebbalali/assets/CAP.PA.png" alt="capgemini" style="float:left;width:50px;">
 ### 03/2021 - present
 
-- **Lopa Explorer, 09/2021 - 05/2023**: Develop for *Airbus* a software solution to generate cabin configurations for different types of aircrafts given the airline requirements. The solution is based on a **constraint programming model** and **multi-objective optimization**. The developped *Lopa Explorer* allows the exploration of all the possible configurations for a specified scenario in less than *2 min*.  <img src="https://hebbalali.github.io/Hebbalali/assets/Airbus-Logo-700x394.png" alt="airbus" style="float:right;width:10;">
+- **Lopa Explorer, 09/2021 - 05/2023**: Develop for *Airbus* a software solution to generate cabin configurations for different types of aircrafts given the airline requirements. The solution is based on a **constraint programming model** and **multi-objective optimization**. The developped *Lopa Explorer* allows the exploration of all the possible configurations for a specified scenario in less than *2 min*.  <img src="https://hebbalali.github.io/Hebbalali/assets/Airbus-Logo-700x394.png" alt="airbus" style="float:right;width:50px;">
 
 *Technical skills: optimization, constraint programming, operational research, multi-objective optimization*
 
@@ -19,7 +19,7 @@ permalink: /experience/
 
 *software: Python, tensorflow, scikit-learn, GPflow*
 
-# ONERA - The French Aerospace Lab (Thesis) <img src="https://hebbalali.github.io/Hebbalali/assets/onera_logo.png" alt="onera" style="float:left;width:10;">
+# ONERA - The French Aerospace Lab (Thesis) <img src="https://hebbalali.github.io/Hebbalali/assets/onera_logo.png" alt="onera" style="float:left;width:50px;">
 ### 09/2017 - 01/2021
 
 - **Deep Gaussian processes for the analysis and optimization of complex systems**: Different challenges in the analysis and optimization of complex systems using Gaussian processes have been addressed, mainly: 
@@ -37,7 +37,7 @@ The approaches developped to deal with these challenges are based on deep Gaussi
 
 *software: Python, tensorflow, GPflow, scikit-learn*
 
-# ONERA - The French Aerospace Lab (Internship) <img src="https://hebbalali.github.io/Hebbalali/assets/onera_logo.png" alt="onera" style="float:left;width:10;">
+# ONERA - The French Aerospace Lab (Internship) <img src="https://hebbalali.github.io/Hebbalali/assets/onera_logo.png" alt="onera" style="float:left;width:50px;">
 ## 03/2017 - 09/2017
 
 - **multi-objective design optimization problems of aerospace vehicles**: Elaboration of methodologies for multi-objective design optimization problems of aerospace vehicles. Application of multi-objective evolutionary algorithms and surrogate based multi-objective approaches. 
@@ -46,7 +46,7 @@ The approaches developped to deal with these challenges are based on deep Gaussi
 
 *software: Python, Platypus, scikit-learn*
 
-# Compagnie de Transports au Maroc (Internship) <img src="https://hebbalali.github.io/Hebbalali/assets/logo_ctm.png" alt="ctm" style="float:left;width:10;">
+# Compagnie de Transports au Maroc (Internship) <img src="https://hebbalali.github.io/Hebbalali/assets/logo_ctm.png" alt="ctm" style="float:left;width:50px;">
 ## 02/2016 - 06/2016
 
 - **Optimization of vehicle allocation**: Optimization of the allocation of vehicles to journeys, using various operational research approaches. The project resulted on a reduction of the number of vehicles used by 30 and an automatic and monthly planning of the
