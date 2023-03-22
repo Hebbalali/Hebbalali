@@ -4,7 +4,7 @@ title: Experience
 permalink: /experience/
 ---
 
-# Hybrid Intelligence - Capgemini <img src="https://hebbalali.github.io/Hebbalali/assets/CAP.PA.png" alt="capgemini" style="float:left;width:10;">
+# Hybrid Intelligence - Capgemini <img src="https://hebbalali.github.io/Hebbalali/assets/CAP.PA.png" alt="capgemini" style="float:left;width:1;">
 ### 03/2021 - present
 
 - **Lopa Explorer, 09/2021 - 05/2023**: Develop for *Airbus* a software solution to generate cabin configurations for different types of aircrafts given the airline requirements. The solution is based on a **constraint programming model** and **multi-objective optimization**. The developped *Lopa Explorer* allows the exploration of all the possible configurations for a specified scenario in less than *2 min*.  <img src="https://hebbalali.github.io/Hebbalali/assets/Airbus-Logo-700x394.png" alt="airbus" style="float:right;width:10;">
