@@ -7,6 +7,13 @@ permalink: /experience/
 # Hybrid Intelligence - Capgemini <img src="https://hebbalali.github.io/Hebbalali/assets/CAP.PA.png" alt="capgemini" style="float:left;width:50px;">
 ### 03/2021 - present
 
+- <img src="https://hebbalali.github.io/Hebbalali/assets/png-transparent-merck-kgaa-logo-m-purple.png" alt="merck" style="float:left;width:70px;"> **Process Optimizer, 05/2023 - 08/2023**: **Bayesian optimization** consultant for *Merck* where the goal is to optimize the processes in bio-reactors. An application was developed and deployed for process optimization. 
+
+*Technical skills: machine learning, Bayesian optimization*
+
+*software: Python, Docker, Kubernetes*
+
+
 - <img src="https://hebbalali.github.io/Hebbalali/assets/Airbus-Logo-700x394.png" alt="airbus" style="float:left;width:70px;"> **Lopa Explorer, 09/2021 - 05/2023**: Develop for *Airbus* a software solution to generate cabin configurations for different types of aircrafts given the airline requirements. The solution is based on a **constraint programming model** and **multi-objective optimization**. The developped *Lopa Explorer* allows the exploration of all the possible configurations for a specified scenario in less than *2 min*.  
 
 *Technical skills: optimization, constraint programming, operational research, multi-objective optimization*
