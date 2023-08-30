@@ -12,15 +12,15 @@ Hello, I am Ali, a Ph.D. in Computer Science and an industrial engineer with a p
 
 My journey into the world of machine learning and optimization began during my engineering studies in industrial engineering at Ecole Mohammadia d'Ingénieurs. It was during my final year thesis when I had the opportunity to apply these concepts in the context of supply chain management. This experience ignited my interest in research, and I subsequently pursued a Master of Research in Computer Science at Paris Dauphine with a focus on optimization. This led me to a Ph.D. in Computer Science at Onera-The French Aerospace Lab, where I focused on using machine learning models, particularly Deep Gaussian Processes, to solve optimization problems in aerospace vehicle design.
 
-After completing my thesis, I joined Hybrid Intelligence, a division of Capgemini Engineering, as an optimization and machine learning consultant. One of my significant projects was the development of a mathematical optimization model to explore the cabin configuration design of aircrafts for Airbus. The model was developed using ORtools and CPSolver, along with multi-objective optimization.
+After completing my thesis, I joined Hybrid Intelligence, a division of Capgemini Engineering, as an optimization and machine learning consultant. I was involved with different clients where the projects involved both machine learning and optimization problems. 
 
-Overall, my passion lies in the application of cutting-edge machine learning methods to solve complex industrial problems, and I look forward to exploring new challenges in this exciting field.
+Overall, my journey reflects a profound commitment to data science, Bayesian modeling, and optimization. With an academic background steeped in mathematical rigor, I bring a robust analytical framework to address complex challenges. This, coupled with my hands-on experience in Bayesian optimization, operational research, and data science, positions me at the intersection of mathematical rigor and the world of data.
 
 ## Skills and Technologies
 
 - **Data science**:
     - Supervised machine learning (Kernel methods, Gaussian processes, Bayesian modeling)
-    - Unsupervised machine learning (K-Means, PCA, probabilistic PCA)
+    - Unsupervised machine learning (K-Means, PCA, probabilistic PCA, variational auto-encoders, anomaly detection)
     - Bayesian Inference (Variational inference, Expectation propagation, MCMC, Laplace approximation)
 - **Optimization**: 
     - Operational research methods
@@ -29,14 +29,23 @@ Overall, my passion lies in the application of cutting-edge machine learning met
     - Stochastic gradient descent (_e.g._ Adam, Natural)
     - Bayesian optimization
     - Multi-objective optimization
+- **Applied Mathematics**:
+    - Linear algebra
+    - Multivariate calculus
+    - Probability and statistics
+    - Numerical methods
 - **Design Engineering**: 
     - Analysis of complex systems
     - Multi-fidelity analysis
     - Uncertainty quantification
-- **Technical skills**:
+- **Computer skills**:
     - Programming: Python/jupyter notebook, R, Comet
     - Optimization: Cplex, ORTools, Scipy, Tensorflow
-    - ML: Tensorflow, Torch, Keras, GPflow
+    - Machine learning: Tensorflow, Torch, Keras, GPflow, sci-kit learn
+    - Data analysis and visualization: NumPy, Pandas, Matplotlib, Seaborn, Plotly
+    - Web Development and applications: Flask, Dash, RESTful APIs,  Docker
+    - Version control: Git \\
+
 
 ## Research Interest
    - Bayesian modeling
