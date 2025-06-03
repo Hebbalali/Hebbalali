@@ -4,8 +4,12 @@ title: Experience
 permalink: /experience/
 ---
 
+# Central Reseach and Technologies - Airbus <img src="https://hebbalali.github.io/Hebbalali/assets/Airbus-Logo-700x394.png" alt="airbus" style="float:left;width:70px;"> 
+## 2024 - present
+- Research scientist in AI for physics.
+
 # Hybrid Intelligence - Capgemini <img src="https://hebbalali.github.io/Hebbalali/assets/CAP.PA.png" alt="capgemini" style="float:left;width:50px;">
-### 03/2021 - present
+### 2021 - 2024
 
 - <img src="https://hebbalali.github.io/Hebbalali/assets/png-transparent-merck-kgaa-logo-m-purple.png" alt="merck" style="float:left;width:70px;"> **Process Optimizer, 05/2023 - 08/2023**: Data-science and optimization consultant for *Merck* where the goal is to optimize the processes in bio-reactors. Developed and deployed an application for process optimization, resulting in enhanced efficiency.
 
